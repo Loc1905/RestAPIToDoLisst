@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <Toaster />
+      <Toaster richColors />
       <button onClick={() => toast("Hello")}>Toaster</button>
       <BrowserRouter>
         <Routes>
