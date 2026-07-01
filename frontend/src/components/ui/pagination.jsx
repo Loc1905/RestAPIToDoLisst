@@ -71,7 +71,7 @@ function PaginationPrevious({
       className={cn("pl-2!", className)}
       {...props}>
       <HugeiconsIcon icon={ArrowLeft01Icon} strokeWidth={2} data-icon="inline-start" />
-      <span className="hidden sm:block">{text}</span>
+      <span className="hidden sm:block">Truoc</span>
     </PaginationLink>
   );
 }
@@ -87,7 +87,7 @@ function PaginationNext({
       size="default"
       className={cn("pr-2!", className)}
       {...props}>
-      <span className="hidden sm:block">{text}</span>
+      <span className="hidden sm:block">Sau</span>
       <HugeiconsIcon icon={ArrowRight01Icon} strokeWidth={2} data-icon="inline-end" />
     </PaginationLink>
   );
